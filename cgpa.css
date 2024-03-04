@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#outer{
+    background-color:#959eac;
+    height: 5750px;
+}
+
+#outer h1{
+    padding: 40px 10px 30px 650px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+#main1{
+    padding-left: 230px;
+}
+
+.semester {
+    width: 950px;
+    height: 350px;
+    margin: 10px 0px 5px 60px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #778090;
+}
+
+
+.semester>h2 {
+    padding: 20px 0px 50px 55px;
+}
+
+
+.head {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    padding: 0px 0px 20px 55px;
+}
+
+.btn {
+    padding: 0px 0px 20px 155px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(165, 182, 201);
+}
+
+.btn1,
+.btn2 {
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.Course {
+    padding-left: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    padding-bottom: 20px;
+}
+
+select {
+    height: 25px;
+    width: 150px;
+    text-indent: 5px;
+}
+
+input {
+    margin-left: 20px;
+    text-indent: 10px;
+}
+
+.gpa{
+    padding: 10px 10px 10px 350px;
+    display: flex;
+    gap: 25px;
+}
+
+#cgpans{
+    padding: 40px 10px 10px 750px;
+    
+}
+
+p{
+    font-weight: bolder;
+}
+
+#footer {
+    background-color: #778090;
+    bottom: 0;
+    position: fixed;
+    width: 1850px;
+}
